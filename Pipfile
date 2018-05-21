@@ -13,6 +13,8 @@ numpy = "*"
 scipy = "*"
 pandas = "*"
 matplotlib = "*"
+requests = "*"
+"beautifulsoup4" = "*"
 
 [dev-packages]
 
