@@ -11,20 +11,29 @@ Inactive links will be added the evening before the following day's class at the
 * Day 3: Visualizing and Analyzing Data
 * Day 4: Predictive Modeling
 
-## Setup
-To get the most out of the course, you'll probably want to show up to class with a laptop set up with a working scientific Python environment. The easiest way to accomplish this is to install the [Anaconda distribution](https://www.anaconda.com/download), available for all major operating systems. You can install anaconda from:
+## Setup (Instructions for Mac)
+Install Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-    https://www.anaconda.com/download
+Install pipenv: `brew install pipenv`
 
-Anaconda comes prepackaged with many of the core scientific Python libraries, including numpy, scipy, pandas, scikit-learn, and Jupyter. However, there may be other packages we'll cover or use in the course. You should be able to install virtually all of these using the `conda` or `pip` installers. From the command prompt, type:
+Set environment variable in `~/.bash_profile`
+```bash
+echo "#When pipenv makes a virtual environment, it will create it in the same directory as the project instead of ~/.local/share/virtualenv/" >> ~/.bash_profile
+echo "PIPENV_VENV_IN_PROJECT=true" >> ~/.bash_profile
+echo "export PIPENV_VENV_IN_PROJECT" >> ~/.bash_profile
+```
 
-> conda install [package]
+Close terminal, then repoen
 
-Or (if that doesn't work):
+Clone this repository: `git clone https://github.com/timgianitsos/SSI2018.git`
 
-> pip install [package]
+Navigate inside the repository: `cd SSI2018`
 
-Packages we'll almost certainly work with (which you may want to install ahead of time) include `scikit-learn`, `seaborn`, `statsmodels`, and `rpy2`--all of which can be installed with `conda install` (e.g., `conda install seaborn`).
+Enter virtual environment: `pipenv shell`
+
+Install dependencies: `pipenv install`
+
+Run a notebook while in the pipenv shell: `jupyter notebook notebooks/test.ipynb`
 
 ## Testing your environment
 
