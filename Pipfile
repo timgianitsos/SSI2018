@@ -16,6 +16,8 @@ matplotlib = "*"
 requests = "*"
 "beautifulsoup4" = "*"
 "bs4" = "*"
+keras = "*"
+tensorflow = "*"
 
 [dev-packages]
 
