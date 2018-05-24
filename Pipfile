@@ -18,6 +18,7 @@ requests = "*"
 "bs4" = "*"
 keras = "*"
 tensorflow = "*"
+pydot = "*"
 
 [dev-packages]
 
