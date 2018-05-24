@@ -9,7 +9,7 @@ Inactive links will be added the evening before the following day's class at the
 * [Day 1: Data Science in Python](https://github.com/tyarkoni/SSI2018/blob/master/notebooks/Day%201%20-%20Data%20science%20in%20Python.ipynb)
 * [Day 2: Data Wrangling](https://github.com/tyarkoni/SSI2018/blob/master/notebooks/Day%202%20-%20Data%20wrangling.ipynb)
 * [Day 3: Visualizing and Analyzing Data](https://github.com/tyarkoni/SSI2018/blob/master/notebooks/Day%203%20-%20Exploring%20and%20analyzing%20data%20in%20Python.ipynb)
-* Day 4: Predictive Modeling
+* [Day 4: Predictive Modeling](https://github.com/tyarkoni/SSI2018/blob/master/notebooks/Day%204%20-%20Machine%20learning%20in%20scikit-learn.ipynb)
 
 ## Setup (Instructions for Mac)
 Install Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
