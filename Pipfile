@@ -19,6 +19,7 @@ requests = "*"
 keras = "*"
 tensorflow = "*"
 pydot = "*"
+numba = "*"
 
 [dev-packages]
 

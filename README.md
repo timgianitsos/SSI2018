@@ -16,7 +16,7 @@ Install Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.
 
 Install pipenv: `brew install pipenv`
 
-Set environment variable in `~/.bash_profile`
+Set environment variable in `~/.bash_profile` (this will probably be `~/.bashrc` for linux)
 ```bash
 echo "#When pipenv makes a virtual environment, it will create it in the same directory as the project instead of ~/.local/share/virtualenv/" >> ~/.bash_profile
 echo "PIPENV_VENV_IN_PROJECT=true" >> ~/.bash_profile
