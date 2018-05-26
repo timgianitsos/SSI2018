@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c7eda67af2ca41b72010dac8d2381e6fcaf660ddc84d0ccb9a52d74b6b2400b2"
+            "sha256": "f345f3999f8e8779ba20688a1e2e1c283c116da48b77475506ca4ccde12e0254"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -194,6 +194,7 @@
                 "sha256:a0c96853549b246991046f32d19db7140f5b1a644cc31f0dc1edc86713b7676f",
                 "sha256:eca537aa61592aca2fef4adea12af8e42f5c335004dfa80c78caf80e8b525e5c"
             ],
+            "markers": "python_version >= '3.3'",
             "version": "==6.4.0"
         },
         "ipython-genutils": {
@@ -362,6 +363,13 @@
             ],
             "version": "==0.8.3"
         },
+        "mizani": {
+            "hashes": [
+                "sha256:1dd4b29918f889d7c1347b98cb4b2dba114ba10116592b7f1915f4ff515b9311",
+                "sha256:e52bf6e1806e74a72500635eea6aeb472fb836d3ad43e51ca49734cb973a4aa7"
+            ],
+            "version": "==0.4.6"
+        },
         "nbconvert": {
             "hashes": [
                 "sha256:12b1a4671d4463ab73af6e4cbcc965b62254e05d182cd54995dda0d0ef9e2db9",
@@ -434,6 +442,13 @@
             "index": "pypi",
             "version": "==1.14.3"
         },
+        "palettable": {
+            "hashes": [
+                "sha256:0685b223a236bb7e2a900ef7a855ccf9a4027361c8acf400f3b350ea51870f80",
+                "sha256:7306d63c55216f66d5e5509aacda8bb51c5918debfd6bda4aac8d0940e1788a2"
+            ],
+            "version": "==3.1.1"
+        },
         "pandas": {
             "hashes": [
                 "sha256:295cf212054b28f1d111f3ffff932a012601558424ec892f2450d6197f6eeb92",
@@ -489,6 +504,14 @@
                 "sha256:c9a2541f25aeabc070f12f452e1f2a8eae2abd51e1cd19e8430402bdf4c1d8b5"
             ],
             "version": "==0.7.4"
+        },
+        "plotnine": {
+            "hashes": [
+                "sha256:6f80949e72e9ffb38e0667903cf398e741809efe5768d59ee03c1853301d8c55",
+                "sha256:ed18a7e9f30b685f383f252dd844492a667cc567d06ebf5e9688b941316161ca"
+            ],
+            "index": "pypi",
+            "version": "==0.3.0"
         },
         "prompt-toolkit": {
             "hashes": [

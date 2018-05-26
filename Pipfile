@@ -20,6 +20,7 @@ keras = "*"
 tensorflow = "*"
 pydot = "*"
 numba = "*"
+plotnine = "*"
 
 [dev-packages]
 

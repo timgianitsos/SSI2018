@@ -12,7 +12,10 @@ Inactive links will be added the evening before the following day's class at the
 * [Day 4: Predictive Modeling](https://github.com/tyarkoni/SSI2018/blob/master/notebooks/Day%204%20-%20Machine%20learning%20in%20scikit-learn.ipynb)
 
 ## Setup (Instructions for Mac)
-Install Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+Install Homebrew:
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 Install pipenv: `brew install pipenv`
 
